@@ -83,7 +83,7 @@ int main()
         cout << "\n6. Keluar";
         cout << "\nPilih menu (1-6): ";
 
-        // Memeriksa apakah input adalah angka
+        // Memeriksa apakah input adalah angka berupa bilangan interger
         while (!(cin >> pilihan))
         {
             cin.clear();                                         // Menghapus flag kesalahan
