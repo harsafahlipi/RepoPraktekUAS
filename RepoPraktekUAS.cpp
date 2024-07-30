@@ -34,7 +34,7 @@ void kurangiStok(Gudang &barang, int jumlah)
     }
 }
 
-// Fungsi untuk menampilkan sisa stok barang
+// Menambahkan fungsi untuk menampilkan sisa stok barang
 void cekStok(Gudang &barang)
 {
     cout << "Stok " << barang.nama_barang << " di gudang adalah " << barang.stok << " " << barang.satuan << endl;
