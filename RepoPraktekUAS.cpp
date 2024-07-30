@@ -86,7 +86,7 @@ int main()
         // Memeriksa apakah input adalah angka berupa bilangan interger
         while (!(cin >> pilihan))
         {
-            cin.clear();                                         // Menghapus flag kesalahan
+            cin.clear();    // Menambahkan fitur untuk Menghapus flag kesalahan
             cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Mengabaikan input yang salah
             cout << "Pilihan tidak valid. Silakan pilih menu (1-6): ";
         }
