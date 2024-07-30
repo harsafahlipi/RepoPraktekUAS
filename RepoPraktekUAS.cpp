@@ -56,7 +56,7 @@ void tambahBarang(vector<Gudang> &gudang)
     cout << "Barang baru berhasil ditambahkan.\n";
 }
 
-// Fungsi untuk menampilkan daftar barang
+// Menambahkan fungsi untuk menampilkan daftar barang
 void daftarBarang(const vector<Gudang> &gudang)
 {
     cout << "Daftar Barang di Gudang:\n";
