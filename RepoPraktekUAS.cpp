@@ -91,7 +91,7 @@ int main()
             cout << "Pilihan tidak valid. Silakan pilih menu (1-6): ";
         }
 
-        // Percabangan untuk memproses pilihan menu
+        // Menambahkan percabangan untuk memproses pilihan menu
         switch (pilihan)
         {
         case 1:
