@@ -73,7 +73,7 @@ int main()
 
     do
     {
-        // Menampilkan menu
+        // Menambahkan fungsi pilihan untuk menampilkan menu yang ingin dibuka
         cout << "\nPilih Menu:";
         cout << "\n1. Tambah Barang Baru";
         cout << "\n2. Tambah Stok";
