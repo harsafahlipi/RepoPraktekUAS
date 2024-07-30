@@ -40,7 +40,7 @@ void cekStok(Gudang &barang)
     cout << "Stok " << barang.nama_barang << " di gudang adalah " << barang.stok << " " << barang.satuan << endl;
 }
 
-// Fungsi untuk menambah barang baru
+// Menambah fungsi untuk menambah barang baru
 void tambahBarang(vector<Gudang> &gudang)
 {
     Gudang barangBaru;
